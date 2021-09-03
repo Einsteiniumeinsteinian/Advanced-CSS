@@ -1,0 +1,32 @@
+body{
+    background-color: teal;
+}
+
+.img1-bg{
+    background-color: red;
+}
+.img2-bg{
+    background-color: blueviolet;
+}
+.img3-bg{
+    background-color: red;
+}
+
+img.img-fluid:hover{
+    opacity: 0.5; 
+}
+
+
+i.icons{
+    left: 40%;
+    top: 25%;
+    position: absolute;
+    z-index: 1;
+    color: aliceblue;
+    display: none;
+    /* background-color: blue; */
+    font-size: 8rem;
+}
+.imgDiv:hover i.icons{
+display: inline-block;
+}

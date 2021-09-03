@@ -1,0 +1,19 @@
+body{
+    margin: auto;
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    height: 20vh;
+}
+
+.box{
+    background-color: antiquewhite;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+.middle{
+    background-color: rgb(179, 106, 17);
+}

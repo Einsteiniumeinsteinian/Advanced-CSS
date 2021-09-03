@@ -1,0 +1,10 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: colum;
+}
+
+header{
+    background-color: green;
+    height: 5vh;
+}

@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+header{
+  /* display: flex; */
+  background-image: url('../img/main.jpg');
+  background-repeat: no-repeat;
+background-size: cover;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 30vh;
+}
+.top-container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-top: 0;
+   text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* Photo Section */
+.first-photo-set{
+    display: flex;
+    height: 40vh;
+    flex-basis: 100px;
+}
+
+.img{
+    min-width: 0;
+flex-basis: 500px;
+flex-grow: 1;
+}
+.img-2{
+    flex-grow: 5;
+}
+

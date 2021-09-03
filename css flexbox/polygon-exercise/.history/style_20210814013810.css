@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+}
+
+.box{
+    background-color: #cc042c;
+    flex-basis: 300px;
+    flex-grow: 1;
+    color: white;
+    fon
+font-family: 'Palette Mosaic', cursive;
+}
+
+.middle{
+    background-color: #b20039;
+}
+
+

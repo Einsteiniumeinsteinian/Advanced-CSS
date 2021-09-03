@@ -1,0 +1,34 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+.navClass{
+ display: flex;
+ justify-content: flex-end; 
+ flex-wrap: wrap;
+}
+
+a{
+    fon
+}
+
+@media screen and (max-width: 920px) {
+    body{
+        background-color: green;
+    }
+    .navClass{
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: brown;
+    }
+    .navClass{
+        flex-direction: column;
+        align-items: center;
+    }
+}

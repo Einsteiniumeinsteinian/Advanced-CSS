@@ -1,0 +1,261 @@
+
+body{
+    margin: 0;
+    min-width: 100vh;
+    /* font-family: ; */
+}
+
+header{
+  background-image: url('../img/main.jpg');
+  /* background-color: #01579B; */
+  background-repeat: no-repeat;
+background-size: cover;
+    min-height: 100vh;
+    margin-bottom: 10vh;
+}
+@media screen and (max-width: 800px) {
+    header{
+        min-height: 100%; 
+    }
+    nav{
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+}
+nav{
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+     /* min-height: 30vh; */
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span > a{
+     padding: 20px;
+     font-size: 1.2rem;
+}
+nav > a{
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+}
+.top-container{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+}
+
+/** Header-text-wrapping  */
+/* .header-text-wrapping{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  flex-basis: 250px;
+} */
+.header-text-wrapping > h1{
+    margin: 0;
+    font-size: 4rem;
+   text-align: center;
+}
+.header-text-wrapping > p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 35px 0;
+
+}
+
+.button{
+    padding: 20px 40px;
+    color: white;
+    background-color: #01579B;
+    border: none;
+    font-size: 200%;
+    border-radius: 4px;
+      transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/** Line Breaker Div */
+.line-breaker-div{
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    max-width: 50vw;
+    text-align: center;
+    line-height: 2em;
+}
+.line-breaker-div > h1{
+      text-transform: uppercase;
+      color: #616161;
+      font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+}
+hr{
+    margin-top: 30px;
+    width: 20%;
+    border: #07079e 2px solid;
+}
+
+
+/** Photo Section */
+.photo-section{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.photo-set-div{
+    flex-grow: 1;
+    display: flex;
+    height: 40vh;
+    flex-basis: 100px;
+}
+
+.img{
+    min-width: 0;
+flex-basis: 400px;
+flex-grow: 1;
+  object-fit: cover;
+}
+.img-2{
+    margin-left: 50px;
+    flex-grow: 8;
+}
+.img-3{
+    margin-right: 50px;
+    flex-grow: 5;
+}
+
+/** Packages */
+.package-section{
+    padding: 60px;
+    background-color: #EEEEEE;
+}
+.package-set{
+    display: flex;
+}
+.package{
+    text-align: center;
+    line-height: 2em;
+    margin-top: 50px;
+    padding: 50px;
+}
+.package > h1{
+    /* font-family: 'Quicksand', sans-serif; */
+    color: #424242;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.package > i{
+    font-size: 4em;
+    color: #448AFF;
+}
+
+
+/** testimonials-section */
+.testimonials-section{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+}
+article{
+      text-align: center;
+    line-height: 2em;
+    margin-top: 30px;
+    letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 100px;
+}
+article > p{
+    padding: 0 20%;
+}
+article > p:not(.author){
+    font-size: 1.4em;
+    color: #424242;
+}
+P.author{
+font-weight: bold;
+font-size: 1.2rem;
+}
+
+/** Newslletter  */
+.newsletter-section{
+    padding: 60px;
+    background-color: #EEEEEE;
+}
+form{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+  
+}
+
+input{
+      margin: 36px;
+    background-color: white;
+    width: 40vw;
+    padding: 20px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    font-size: 1.3rem;
+}
+input:focus{
+   outline: none;
+}
+::placeholder{
+    font-size: 1.3rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    margin: 0;
+    background-color: #607d8b;
+    height: 8vh;
+    color: #E0E0E0;
+}
+
+footer > p{
+    margin: 0;
+    text-transform: uppercase;
+}
+.icon-pack > i{
+    padding: 0 10px;
+    font-size: 2rem;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: teal;
+}
+
+.img1-bg{
+    background-color: red;
+}
+.img2-bg{
+    background-color: blueviolet;
+}
+.img3-bg{
+    background-color: yellowgreen;
+}
+
+img.img-fluid:hover{
+    opacity: 0.5; 
+}
+
+.circle {
+    background-color: aliceblue;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 4rem;
+
+}
+
+i.icons{
+    position: relative;
+    bottom: 15%;
+    color: red;
+    /* display: none; */
+    /* background-color: blue; */
+    font-size: 6rem;
+}
+/* .imgDiv:hover i.icons{
+display: inline-block;
+} */

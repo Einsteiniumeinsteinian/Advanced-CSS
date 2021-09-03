@@ -1,0 +1,11 @@
+body{
+    background-color: teal;
+}
+
+.col-lg-4{
+    background-color: red;
+}
+
+img.img-fluid:{
+    opacity: 0.5;
+}

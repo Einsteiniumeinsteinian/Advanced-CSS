@@ -1,0 +1,26 @@
+body{
+    background-color: teal;
+}
+
+.imgDiv{
+    background-color: red;
+}
+
+img.img-fluid:hover{
+    opacity: 0.5; 
+}
+
+
+i{
+    left: 40%;
+    top: 25%;
+    position: absolute;
+    z-index: 1;
+    color: aliceblue;
+    display: none;
+    /* background-color: blue; */
+    font-size: 8rem;
+}
+.imgDiv:hover i{
+display: inline-block;
+}

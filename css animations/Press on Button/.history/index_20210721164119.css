@@ -1,0 +1,20 @@
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fcad26 ;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding: 20px 80px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 8px #efa424;
+}
+
+.btn:hover{
+box-shadow: 0 6px #efa424;
+top: ;
+}

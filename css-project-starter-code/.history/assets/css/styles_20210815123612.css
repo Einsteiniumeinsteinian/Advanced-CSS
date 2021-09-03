@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+header{
+  /* /* display: flex;
+  flex-direction: column; */
+
+  background-image: url('../img/main.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 30vh;
+}
+.top-container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-top: 0;
+   text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+

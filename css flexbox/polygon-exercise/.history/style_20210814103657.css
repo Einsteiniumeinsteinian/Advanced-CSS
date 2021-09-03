@@ -1,0 +1,34 @@
+body{
+    margin: auto;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+     /* align-items: flex-end; */
+    height: 30vh;
+}
+
+.box{
+    background-color: #cc042c;
+   
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    color: white;
+    font-size: 2em;
+font-family: 'Roboto Slab', serif;
+padding: 20px;
+}
+
+.middle{
+    background-color: #b20039;
+}
+
+.box:hover{
+    background-color: #ff0052;
+    transition: background-color 250ms;
+}
+
+

@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vh;
+}
+
+.box{
+    background-color: antiquewhite;
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.middle{
+    background-color: rgb(179, 106, 17);
+}
+
+@media screen and (max-width: 600px) {
+    
+}

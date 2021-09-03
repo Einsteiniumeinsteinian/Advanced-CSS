@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    height: 20vh;
+}
+
+.box{
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-basis: 500px;
+    flex-grow: 0;
+    flex-shrink: 0; */
+}
+
+.middle{
+    background-color: rgb(179, 106, 17);
+}
+
+@media screen and (max-width: 600px) {
+    
+}

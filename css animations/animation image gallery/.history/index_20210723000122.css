@@ -1,0 +1,23 @@
+body{
+    background-color: teal;
+}
+
+.imgDiv{
+    background-color: red;
+}
+
+img.img-fluid:hover{
+    opacity: 0.5; 
+}
+
+
+i.fa-apple{
+    left: 40%;
+    top: 25%;
+    position: absolute;
+    z-index: 1;
+    color: aliceblue;
+    /* background-color: blue; */
+    font-size: 8rem;
+}
+.imgDiv:hover

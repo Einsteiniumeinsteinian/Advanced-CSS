@@ -1,0 +1,16 @@
+body{
+    background-color: green;
+}
+
+.container{
+    display: flex;
+}
+
+.box{
+    background-color: antiquewhite;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+.middle{
+    background-color: rgb(179, 106, 17);
+}

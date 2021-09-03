@@ -1,0 +1,35 @@
+body{
+    background-color: yellowgreen;
+}
+h1{
+
+    animation: h1Style 2s infinite;
+}
+
+@keyframes h1Style {
+    0%{
+        color: red;
+        font-size: 120px;
+   
+    }
+    25%{
+        color: orange;
+             transform: translate(1000px, 0px);
+        transition: transform 15s ;
+    }
+    50%{
+        color: yellow;
+        font-size: 150px;
+                 transform: translate(1000px, 500px);
+        transition: transform 15s ;
+    }
+    75%{
+        color: green;
+                    transform: translate(0px, 500px);
+        transition: transform 15s ;
+    }
+    100%{
+        color: blue;
+        font-size: 120px;
+    }
+}

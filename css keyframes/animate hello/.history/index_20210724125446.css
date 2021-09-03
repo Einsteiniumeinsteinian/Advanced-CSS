@@ -1,0 +1,14 @@
+body{
+    background-color: yellowgreen;
+}
+
+
+@keyframes h1Style {
+    0%{
+        color: red;
+        font-size: 20px;
+    }
+    25%{
+        color: ;
+    }
+}

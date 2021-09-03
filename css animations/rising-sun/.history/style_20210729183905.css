@@ -1,0 +1,76 @@
+body {
+  margin: 0 0 0 0;
+  background-color: #2c3e50;
+  animation: cloud 10s linear;
+}
+
+.grass {
+  background: green;
+  height: 775.5px;
+  width: 100%;
+  position: absolute;
+}
+
+.sun {
+  background: #f1c40f;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation-name: rising-sun;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes cloud {
+    0%{
+        background-color: #212121;
+    }
+    10%{
+background-color: #e0f2f1;
+    }
+    30%{
+        background-color: #03a9f4;
+    }
+    70%{
+                background-color: #03a9f4;
+    }
+    90%{
+        background-color: #ffcc80;
+    }
+    100%{
+        background-color: #212121;
+    }
+}
+
+@keyframes rising-sun {
+    0%{
+        transform: translate(-150px, 200px);  
+                    background-color: orange;
+
+    }
+    
+    25%{
+        transform: translate(400px, -15px);
+                    background-color: yel;
+
+    }
+  
+    
+    50%{
+        transform: translate(800px, -60px);
+                    background-color: yel;
+
+    }
+ 
+    75%{
+            transform: translate(1200px, -15px);
+            background-color: yel;
+    }
+    100%{
+        transform: translate(1800px, 200px);
+        background-color: orangered;
+    }
+    
+    
+}

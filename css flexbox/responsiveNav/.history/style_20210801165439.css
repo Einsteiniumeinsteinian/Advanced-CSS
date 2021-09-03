@@ -1,0 +1,10 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+.navClass{
+ display: flex;
+ justify-content: flex-end;
+ 
+}

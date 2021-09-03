@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    /* font-family: ; */
+}
+header{
+  /* display: flex; */
+  background-image: url('../img/main.jpg');
+  background-repeat: no-repeat;
+background-size: cover;
+    min-height: 100vh;
+    margin-bottom: 10vh;
+}
+nav{
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 30vh;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span > a{
+     padding: 20px;
+     font-size: 1.2rem;
+}
+nav > a{
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+}
+.top-container{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+}
+
+/** Header-text-wrapping  */
+.header-text-wrapping > h1{
+    margin-top: 0;
+    font-size: 4rem;
+   text-align: center;
+}
+.header-text-wrapping > p{
+    text-align: center;
+        font-size: 2.5rem;
+}
+
+button{
+    padding: 20px;
+}
+
+
+/** Photo Section */
+.photo-section{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.photo-set-div{
+    margin-top: 40px;
+    flex-grow: 1;
+    display: flex;
+    height: 40vh;
+    flex-basis: 100px;
+}
+
+.img{
+    min-width: 0;
+flex-basis: 400px;
+flex-grow: 1;
+  object-fit: cover;
+}
+.img-2{
+    margin-left: 50px;
+    flex-grow: 8;
+}
+.img-3{
+    margin-right: 50px;
+    flex-grow: 5;
+}
+
+/** Packages */
+.package-section{
+    margin-top: 10vh;
+    padding: 60px;
+    background-color: #EEEEEE;
+}
+.package-set{
+    display: flex;
+}
+.package{
+    text-align: center;
+    line-height: 2em;
+    margin-top: 50px;
+    padding: 50px;
+}
+.package > h1{
+    /* font-family: 'Quicksand', sans-serif; */
+    color: #424242;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+i{
+    font-size: 4em;
+    color: #448AFF;
+}
+
+/** Line Breaker Div */
+.line-breaker-div{
+    margin: auto;
+    max-width: 50vw;
+    text-align: center;
+    line-height: 2em;
+}
+.line-breaker-div > h1{
+      text-transform: capitalize;
+      color: #616161;
+      font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+}
+hr{
+    margin-top: 30px;
+    width: 20%;
+    border: #07079e 2px solid;
+}

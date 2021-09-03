@@ -1,0 +1,43 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+.navClass{
+ display: flex;
+ justify-content: flex-end; 
+}
+
+a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #95a5a6;
+    font-family: Raleway;
+    border-bottom:4px solid bisque;
+    padding:0px 15px;
+
+}
+
+a:hover{
+    color: #3498;
+}
+
+@media screen and (max-width: 920px) {
+    body{
+        background-color: green;
+    }
+    .navClass{
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: brown;
+    }
+    .navClass{
+        flex-direction: column;
+        align-items: center;
+    }
+}

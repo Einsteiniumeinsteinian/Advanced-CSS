@@ -1,0 +1,41 @@
+body{
+    background-color: green;
+font-family: 'Lato', sans-serif;
+
+}
+
+div{
+msgin
+}
+h1{
+    color: azure;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 300;
+}
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fcad26 ;
+      color: azure;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding: 20px 100px;
+     margin: 10px auto;
+    border-radius: 16px;
+    box-shadow: 0 8px #efa424;
+}
+
+.btn:hover{
+box-shadow: 0 6px #efa424;
+top: 2px;
+}
+.btn:active{
+    box-shadow: none;
+    top: 8px;
+}
+
